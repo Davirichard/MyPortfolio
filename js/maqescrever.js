@@ -6,9 +6,9 @@ const texto = innerHTML="Desenvolvedor Front-end e UI designer";
             if (index < texto.length) {
                 titulo.innerHTML += texto.charAt(index);
                 index++;
-                setTimeout(maquinaEscrever, 90);
+                setTimeout(maquinaEscrever, 100);
             } else {
-                setTimeout(apagarLetras, 2000);
+                setTimeout(apagarLetras, 1000);
             }
         }
 
@@ -19,7 +19,7 @@ const texto = innerHTML="Desenvolvedor Front-end e UI designer";
                 setTimeout(apagarLetras, 100);
             } else {
                 index = 0;
-                setTimeout(maquinaEscrever, 1000);
+                setTimeout(maquinaEscrever, 2000);
             }
         }
 
