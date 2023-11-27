@@ -2,6 +2,7 @@
 :root {
   --color-primary:#986dff;
   --color-secundary:#111111;
+  --color-sidebar:#0c0c0c;
   --color-terciary:#151515;
   --color-quatenary:#343a40;
   --color-parag:#979eaa;
@@ -45,11 +46,12 @@ body::-webkit-scrollbar-thumb {
   color: var(--color-primary);
 }
 
+/*SIDEBAR*/
 .sidebar {
   width: 250px;
   min-height: 100vh;
   height: auto;
-  background-color: var(--color-secundary);
+  background-color: var(--color-sidebar);
   text-align: center;
   padding: 40px 20px 20px 20px;
   position: fixed;
@@ -227,6 +229,7 @@ main .home .background-opacity i {
   animation: bounce 2s infinite;
 }
 
+/*SECTION 1*/
 main .section1 {
   padding: 50px 40px;
 }
@@ -279,7 +282,7 @@ main .section1 .box-flex .left-sobre p {
 main .section1 .box-flex .right-sobre {
   width: 40%;
   padding-left: 80px;
-  margin-top: 20px;
+  padding-top: 50px;
 }
 
 main .section1 .box-flex .right-sobre p {
@@ -340,6 +343,7 @@ main .section1 .box-experiencia .line {
   background-color: rgba(143, 141, 130, 0.3843137255);
 }
 
+/*SECTION 2*/
 main .section2 {
   padding: 100px 40px;
   background-color: var(--color-secundary);
@@ -368,7 +372,8 @@ main .section2 .title-service h3 {
 main .section2 .flex-service {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  margin: 0 auto;
+  width: 1000px;
 }
 
 main .section2 .flex-service .box-services {
@@ -401,6 +406,7 @@ main .section2 .flex-service .box-services .descri-services p {
   margin-top: 10px;
 }
 
+/*SECTION 3*/
 main .section3 {
   background-color: var(--color-terciary);
   padding: 100px 40px;
