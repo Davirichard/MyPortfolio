@@ -1,8 +1,12 @@
-
-
 document.addEventListener('DOMContentLoaded', function () {
     const filterLinks = document.querySelectorAll('.filter-link');
     const projects = document.querySelectorAll('.projetos');
+    const maxVisibleProjects = 6; // Defina o número máximo de projetos visíveis inicialmente
+
+    // Ocultar projetos além do número máximo definido
+    projects.forEach((project, index) => {
+        project.style.display = index < maxVisibleProjects ? 'block' : 'none';
+    });
 
     filterLinks.forEach(link => {
         link.addEventListener('click', function (event) {
@@ -21,10 +25,16 @@ document.addEventListener('DOMContentLoaded', function () {
             this.style.color = '#F74B0A';
 
             // Otimização: percorrer os projetos uma vez e definir a exibição com base nas tags
-            projects.forEach(project => {
+            projects.forEach((project, index) => {
                 const projectTags = project.getAttribute('data-tags').split(' ');
 
-                project.style.display = (projectTags.includes(selectedTag) || selectedTag === 'all') ? 'block' : 'none';
+                if (selectedTag === 'all') {
+                    // Se a tag selecionada for "all", mostrar todos os projetos
+                    project.style.display = 'block';
+                } else {
+                    // Caso contrário, mostrar apenas os projetos com a tag correspondente
+                    project.style.display = projectTags.includes(selectedTag) ? 'block' : 'none';
+                }
             });
         });
     });
