@@ -6,12 +6,15 @@
     <title>David Richard desenvolvedor Front-End</title>
     <link rel="stylesheet" href="sass/style.css">
     <link rel="stylesheet" href="sass/projetos.css">
+    <link rel="stylesheet" href="sass/responsivo.css">
     <!--==== Box-icons ====-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
 </head>
 <body>
-    <div class="sidebar">
+    <div class="container-global" style="display: flex;">
+
+    <aside class="sidebar">
         <div class="foto-perfil">
             <div class="foto"></div>
         </div>
@@ -38,7 +41,8 @@
             <a href="https://github.com/Davirichard" target="_blank"><i class='bx bxl-github' ></i></a>
             <a href="https://www.behance.net/search/images?search=ita%C3%BA" target="_blank"><i class='bx bxl-behance' ></i></a>
         </div>
-    </div>
+    </aside>
+
     <main>
         <div class="home">
             <div class="background-opacity">
@@ -52,8 +56,8 @@
         </div>
         <section class="section1">
             <div class="title-sobre">
-                <h2>Sobre mim</h2>
-                <h3>Um pouco sobre mim</h3>
+                <h2 id="h2">Sobre mim</h2>
+                <h3 id="h3">Um pouco sobre mim</h3>
             </div>
             <div class="box-flex">
                 <div class="left-sobre">
@@ -100,8 +104,8 @@
 
         <section class="section2">
             <div class="title-service">
-                <h2>Serviço</h2>
-                <h3>O que eu faço?</h3>
+                <h2 id="h2">Serviço</h2>
+                <h3  id="h3">O que eu faço?</h3>
             </div>
             <div class="flex-service">
                 <div class="box-services">
@@ -143,8 +147,8 @@
         </section>
         <!--<section class="section3">
             <div class="title-service">
-                <h2>Resumo</h2>
-                <h3>Minhas experiências</h3>
+                <h2 id="h2">Resumo</h2>
+                <h3  id="h3">Minhas experiências</h3>
             </div>
             <div class="box-flex">
                 <div class="box-experiencia">
@@ -176,8 +180,8 @@
 
         <section class="section4">
             <div class="title-service">
-                <h2>Certificados</h2>
-                <h3>Formações</h3>
+                <h2 id="h2">Certificados</h2>
+                <h3  id="h3">Formações</h3>
             </div>
             <div class="box-flex">
                 <div class="box-certificados">
@@ -195,10 +199,10 @@
             </div>
         </section>
 
-        <section class="section5">
+        <section class="section5" >
             <div class="title-service">
-                <h2>Conhecimentos</h2>
-                <h3>Hard Skills</h3>
+                <h2 id="h2">Conhecimentos</h2>
+                <h3  id="h3">Hard Skills</h3>
             </div>
             <div class="box-flex">
                 <div class="box-skills">
@@ -252,10 +256,10 @@
             </div>
         </section>
 
-        <section class="section6">
+        <section class="section6" >
             <div class="title-service">
-                <h2>portfolio</h2>
-                <h3>Meus projetos</h3>
+                <h2 id="h2">portfolio</h2>
+                <h3  id="h3">Meus projetos</h3>
             </div>
             <div class="flex-nav">
                     <a href="#" class="filter-links"  data-filter="all">Ver todos</a>
@@ -264,8 +268,8 @@
             </div>
             <div class="flex-projetos">
                 <div class="projetos" data-tags="clone">
-                    <div class="projeto1">
-                        <div class="opacity">
+                    <div class="projeto1" id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Disney +</h6>
                            <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -276,8 +280,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="clone">
-                    <div class="projeto2">
-                        <div class="opacity">
+                    <div class="projeto2"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Crunchyroll</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -288,8 +292,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="clone">
-                    <div class="projeto3">
-                        <div class="opacity">
+                    <div class="projeto3"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Amazon Prime</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -301,8 +305,8 @@
                 </div>
                                                                             <!--Projetos 1 ao 3-->
                 <div class="projetos" data-tags="clone">
-                    <div class="projeto4">
-                        <div class="opacity">
+                    <div class="projeto4"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Wise Up</h6>
                            <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -313,8 +317,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="clone">
-                    <div class="projeto5">
-                        <div class="opacity">
+                    <div class="projeto5"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Netflix Clone</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -325,8 +329,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto6">
-                        <div class="opacity">
+                    <div class="projeto6"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>AgroDev</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -338,8 +342,8 @@
                 </div>
                                                                             <!--Projetos 4 ao 6-->
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto7">
-                        <div class="opacity">
+                    <div class="projeto7"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Devcoffe</h6>
                            <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -350,8 +354,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto8">
-                        <div class="opacity">
+                    <div class="projeto8"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>DentalDev</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -362,8 +366,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto9">
-                        <div class="opacity">
+                    <div class="projeto9"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Devshoes</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -375,8 +379,8 @@
                 </div>
                                                                             <!--Projetos 7 ao 9-->
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto10">
-                        <div class="opacity">
+                    <div class="projeto10"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Devfit</h6>
                            <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -387,8 +391,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto11">
-                        <div class="opacity">
+                    <div class="projeto11"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>New Phase</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -399,8 +403,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto12">
-                        <div class="opacity">
+                    <div class="projeto12"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Food</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -412,8 +416,8 @@
                 </div>
                                                                             <!--Projetos 10 ao 12-->
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto13">
-                        <div class="opacity">
+                    <div class="projeto13"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>RDR Serviços</h6>
                            <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -424,8 +428,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto14">
-                        <div class="opacity">
+                    <div class="projeto14"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Relogio</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -435,11 +439,11 @@
                         </div>
                     </div>
                 </div>
-                <!--
-                <div class="projetos" data-tags="pessoais">
-                    <div class="projeto15">
-                        <div class="opacity">
-                            <h6>DevInteriors</h6>
+                
+                <div class="projetos" data-tags="clone">
+                    <div class="projeto15"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
+                            <h6>Mercado livre</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
                                 <i class='bx bxl-css3' ></i>
@@ -448,10 +452,10 @@
                         </div>
                     </div>
                 </div>
-                                                                           
+                  <!--                                                         
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto16">
-                        <div class="opacity">
+                    <div class="projeto16"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Cena</h6>
                            <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -462,8 +466,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto17">
-                        <div class="opacity">
+                    <div class="projeto17"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>Danki Code</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -474,8 +478,8 @@
                     </div>
                 </div>
                 <div class="projetos" data-tags="pessoais">
-                    <div class="projeto18">
-                        <div class="opacity">
+                    <div class="projeto18"  id="responsive-project">
+                        <div class="opacity" id="opacity-project">
                             <h6>monguilhott</h6>
                             <div class="box-icons">
                                 <i class='bx bxl-html5'></i>
@@ -490,8 +494,8 @@
 
         <section class="section7">
             <div class="title-service">
-                <h2>depoimentos</h2>
-                <h3>Falas de Clientes</h3>
+                <h2 id="h2">depoimentos</h2>
+                <h3  id="h3">Falas de Clientes</h3>
             </div>
             <div class="box-flex">
 
@@ -575,8 +579,8 @@
 
         <section class="section8">
             <div class="title-service">
-                <h2>Contato</h2>
-                <h3>Fale comigo</h3>
+                <h2 id="h2">Contato</h2>
+                <h3  id="h3">Fale comigo</h3>
             </div>
             <div class="box-flex">
                 <div class="box-block">
@@ -619,14 +623,14 @@
                 </div>
             </div>
         </section>
-
+    </main>
+</div><!--container-global-->
         <footer>
 
             <p>Copyright © 2023 <span>David Richard.</span> Todos os direitos reservados
 
             </p>
         </footer>
-    </main>
     <script src="js/maqescrever.js"></script>
     <script src="js/experi.js"></script>
     <script src="js/projetos.js"></script>
