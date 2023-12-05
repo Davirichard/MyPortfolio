@@ -690,7 +690,7 @@ main .section7 .box-flex {
     display: flex;
     margin: 0 auto;
     max-width: 1100px;
-    overflow: hidden;
+   
 }
 
 main .section7 .box-flex .depoimentos {
@@ -700,19 +700,7 @@ main .section7 .box-flex .depoimentos {
     color: white;
     padding: 40px 40px;
     margin: 20px 20px;
-    transition: transform 0.5s ease; /* Adicionado efeito de transição */
 }
-
-/* Adicionado classe para definir a posição inicial dos depoimentos */
-.main .section7 .box-flex .depoimentos.invisible {
-    transform: translateX(-100%);
-}
-
-/* Adicionado classe para animar a entrada dos depoimentos */
-.main .section7 .box-flex .depoimentos.visible {
-    transform: translateX(0);
-}
-
 
 
 main .section7 .box-flex .depoimentos .flex-persona .foto-persona{
@@ -733,6 +721,7 @@ main .section7 .box-flex .depoimentos .flex-persona .foto-persona h6{
 }
 
 main .section7 .box-flex .depoimentos .flex-persona .box-descri p{
+    width: 100%;
     line-height: 30px;
     color: var(--color-parag);
 }
