@@ -37,22 +37,23 @@
     #h2{
         font-size: 4.5rem;
     }
+    
 
      #h3{
         top: -75px;
     }
 
     main .section6 .flex-projetos .projetos{
-        width: 100%;
+        width: 80%;
      }
 
      #responsive-project{
-        height: 400px;
+        height: 300px;
      }
 
      #opacity-project{
         width: 100%;
-        height: 400px;
+        height: 300px;
      }
     
 }
@@ -98,8 +99,12 @@
      #opacity-project{
         width: 325px;
         height: 220px;
-     }
+    }
 
+    footer{
+        margin-left: 0;
+    }
+    
 }
 
 @media screen and (max-width:914px){
@@ -215,6 +220,11 @@
         font-size: 17px;
     }
 
+    main .home .background-opacity{
+        height: 560px;
+    }
+    
+
     main .home .background-opacity .title-home h2{
         font-size: 17px;
     }
@@ -231,7 +241,7 @@
     
 main .home .background-opacity i{
     font-size: 35px;
-    bottom: -100px;
+    bottom: 0;
 }
 
 main .section1 .box-flex .left-sobre p{
@@ -360,6 +370,23 @@ main .section5 .box-flex .box-skills i{
 }
 
 @media screen and (max-width:400px){
+
+    #h2{
+        display: none;
+    }
+
+    #h3{
+        font-size: 22.5px;
+        top: -0;
+    }
+
+    #line{
+        width: 100px;
+        height: 1px;
+    background-color: #F74B0A;
+    margin: 0 auto 40px auto;
+    }
+
     
     main .home .background-opacity .title-home #texto-maquina{
         font-size: 28px;
@@ -387,7 +414,7 @@ main .section5 .box-flex .box-skills i{
         width: 100%;
         min-width: 0;
         margin: 10px auto;
-        padding: 5px;
+        padding: 0.5;
     }
     
 
@@ -397,12 +424,24 @@ main .section5 .box-flex .box-skills i{
     main .section2{
         padding: 50px 20px;
     }
+
+    main .section1 .box-flex .left-sobre h4{
+        color: var(--color-title);
+        font-size: 20px;
+    }
+
+
     main .section3{
         padding: 50px 20px;
     }
     main .section4{
         padding: 50px 20px;
     }
+
+    main .section4 .box-certificados img{
+        opacity: 0.8;
+    }
+
     main .section5{
         padding: 50px 20px;
     }
@@ -420,7 +459,7 @@ main .section5 .box-flex .box-skills i{
     }
 
     main .section7 .box-flex .depoimentos {
-        padding: 40px 20px;
+        padding: 20px 20px;
     }
 
     main .section7 .box-flex .depoimentos .flex-persona .foto-persona h6{
@@ -431,7 +470,7 @@ main .section5 .box-flex .box-skills i{
     main .section7 .box-flex .depoimentos .flex-persona .box-descri p{
         font-size: 13px;
         line-height: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     main .section8{
@@ -483,4 +522,21 @@ main .section6 .flex-projetos .projetos{
  }
 
 
+}
+
+@media screen and (max-width:350px){
+    main .section5 .box-flex .box-skills{
+        margin: 20px 10px;
+        padding: 20px 15px;
+        width: 120px;
+    }   
+
+    main .section5 .box-flex .box-skills h5{
+        font-size: 13px;
+    }
+    
+    main .section5 .box-flex .box-skills i{
+        font-size: 35px;
+        margin: 10px 0;
+    }   
 }
