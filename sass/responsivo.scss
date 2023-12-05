@@ -64,11 +64,13 @@
     }
 
     #h2{
-        font-size: 6.5rem;
+        font-size: 6rem;
+        color: rgba(151, 158, 170, 0.048);
     }
 
      #h3{
-        top: -95px;
+        top: -90px;
+        font-size: 25px;
     }
 
     main{
@@ -100,6 +102,51 @@
 
 }
 
+@media screen and (max-width:914px){
+    #h2{
+        font-size: 5rem;
+    }
+
+     #h3{
+        top: -80px;
+    }
+}
+
+@media screen and (max-width:880px){
+    main .section4 .box-certificados{
+        width: 45%;
+        min-width: 300px;
+        margin: 10px auto;
+    }
+    
+    main .section4 .box-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    main .home .background-opacity .title-home h2{
+        font-size: 20px;
+    }
+    
+    main .home .background-opacity .title-home #texto-maquina{
+        font-size: 45px;
+    }
+
+    #h2{
+        font-size: 4rem;
+    }
+
+     #h3{
+        top: -65px;
+    }
+}
+
 @media screen and (max-width:780px){
     main .section2  .flex-service{
         display: flex;
@@ -113,4 +160,223 @@
         min-width:100%;
         margin:  20px 0;
     }
+}
+
+@media screen and (max-width:700px){
+
+    main .section1 .box-experiencia .experi h5{
+        font-size: 35px;
+    }
+
+    main .section1 .box-experiencia .experi span{
+        font-size: 14px;
+    }
+
+    main .section4 .box-certificados{
+        width: 90%;
+        min-width: 300px;
+        margin: 10px auto;
+    }
+    
+    main .section4 .box-flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width:650px){
+
+    main .section1 .box-flex .left-sobre{
+        width: 100%;
+        min-width: 0;
+        padding-right: 0;
+    }
+
+    main .section1 .box-flex .right-sobre{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:630px){
+    #h2{
+        font-size: 3.5rem;
+    }
+
+     #h3{
+        top: -55px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:550px){
+
+    #h2{
+        font-size: 2.5rem;
+    }
+
+     #h3{
+        top: -42.5px;
+        font-size: 17px;
+    }
+
+    main .home .background-opacity .title-home h2{
+        font-size: 17px;
+    }
+    
+    main .home .background-opacity .title-home #texto-maquina{
+        font-size: 37px;
+    }
+
+    main .home .background-opacity .title-home button{
+        padding: 15px 40px;
+        font-size: 14px;
+    }
+
+    
+main .home .background-opacity i{
+    font-size: 35px;
+    bottom: -100px;
+}
+
+main .section1 .box-flex .left-sobre p{
+    font-size: 13.5px;
+    line-height: 25px;
+}
+
+main .section1 .box-experiencia .experi{
+    margin: 0 20px;
+}
+}
+
+@media screen and (max-width:460px){
+    main .home .background-opacity .title-home h2{
+        font-size: 16.5px;
+    }
+    
+    main .home .background-opacity .title-home #texto-maquina{
+        font-size: 30px;
+    }
+
+    main .home .background-opacity .title-home button{
+        padding: 15px 40px;
+        font-size: 13px;
+    }
+
+    main .section1 .box-flex .left-sobre h4{
+        color: var(--color-title);
+        font-size: 25px;
+    }
+
+    main .section1 .box-flex .left-sobre p{
+        font-size: 13px;
+    }
+
+    main .section1 .box-flex .right-sobre p{
+        font-size: 13px;
+    }
+
+    main .section1 .box-flex .right-sobre .box-whats{
+        justify-content: left;
+    }
+
+    
+main .section2  .flex-service .box-services i{
+    font-size: 36px;
+}
+
+
+main .section2  .flex-service .box-services .descri-services h5{
+    font-size: 15.5px;
+}
+
+main .section2  .flex-service .box-services .descri-services p{
+    width: 100%;
+    font-size: 13px;
+}
+    
+}
+
+@media screen and (max-width:420px){
+    #h2{
+        font-size: 2rem;
+    }
+
+     #h3{
+        top: -35px;
+        font-size: 15px;
+    }
+
+    main .section5{
+        background-color: var(--color-secundary);
+        padding: 100px 20px;
+    }
+
+    
+main .section5 .box-flex .box-skills{
+    margin: 20px 10px;
+    padding: 20px 15px;
+    width: 120px;
+}     
+
+main .section5 .box-flex .box-skills h5{
+    font-size: 14px;
+}
+
+main .section5 .box-flex .box-skills i{
+    font-size: 40px;
+    margin: 10px 0;
+}     
+}
+
+@media screen and (max-width:400px){
+    #experi-3{
+        margin-left: 0;
+    }
+
+    #experi-15{
+        margin-right: 0;
+    }
+
+
+    main .section1 .box-experiencia .experi h5{
+        font-size: 28px;
+    }
+
+    main .section1 .box-experiencia .experi span{
+        font-size: 12px;
+    }
+
+    main .section4 .box-certificados{
+        width: 100%;
+        min-width: 0;
+        margin: 10px auto;
+        padding: 5px;
+    }
+
+    main .section1{
+        padding: 50px 20px;
+    }
+    main .section2{
+        padding: 50px 20px;
+    }
+    main .section3{
+        padding: 50px 20px;
+    }
+    main .section4{
+        padding: 50px 20px;
+    }
+    main .section5{
+        padding: 50px 20px;
+    }
+    main .section6{
+        padding: 50px 20px;
+    }
+    main .section7{
+        padding: 50px 20px;
+    }
+
 }
