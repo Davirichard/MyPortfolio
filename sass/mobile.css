@@ -19,6 +19,7 @@ header {
   background: #0c0c0c;
   transform: translateX(100%);
   transition: transform 0.3s ease-in;
+  padding-bottom: 50px;
   z-index: 1;
   overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
   max-height: 100vh; /* Define a altura máxima do menu como 100% da altura da viewport */
