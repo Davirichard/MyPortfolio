@@ -11,16 +11,31 @@ header{
 
 .nav-list {
     position: absolute;
-    top: 7vh;
+    top: 10vh;
     right: 0;
     width: 50%;
-    height: 100vh;
+    height: auto;
     background: #0c0c0c;
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     z-index: 1;
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
+    max-height: 100vh; /* Define a altura máxima do menu como 100% da altura da viewport */
 }
 
+
+.nav-list::-webkit-scrollbar {
+    width: 5px;            
+  }
+  
+  .nav-list::-webkit-scrollbar-track {
+    background:var(--color-terciary);      
+  }
+  
+  .nav-list::-webkit-scrollbar-thumb {
+    background-color: var(--color-primary);    
+    border-radius: 20px;      
+  }
 
 .nav-list .box-foto {
     width: 200px;
@@ -30,7 +45,7 @@ header{
 
 .nav-list .box-foto h4{
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .nav-list .box-foto .foto-perfil{
@@ -91,6 +106,7 @@ to {
 
 .mobile-menu.active .line1 {
 transform: rotate(-45deg) translate(-8px, 8px);
+z-index: 999;
 }
 
 .mobile-menu.active .line2 {
@@ -99,6 +115,7 @@ opacity: 0;
 
 .mobile-menu.active .line3 {
 transform: rotate(45deg) translate(-5px, -7px);
+z-index: 999;
 }
 
 
@@ -129,7 +146,7 @@ header .redes-sociais {
 header .redes-sociais i{
     color: var(--color-parag);
     margin: 0 5px;
-    margin: 20px 10px 10px 10px;
+    margin: 10px;
     font-size: 21.5px;
     cursor: pointer;
     padding: 5px;

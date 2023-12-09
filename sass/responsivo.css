@@ -401,6 +401,10 @@ transform: rotate(45deg) translate(-5px, -7px);
     font-size: 22.5px;
     top: 0;
   }
+  .nav-list li a {
+    color: #979eaa;
+    font-size: 12px;
+  }
   #line {
     width: 100px;
     height: 1px;
