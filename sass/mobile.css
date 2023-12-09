@@ -6,21 +6,21 @@ header {
   display: none;
   align-items: center;
   justify-content: right;
-  z-index: 9999;
+  z-index: 999;
   position: fixed;
 }
 
 .nav-list {
-  position: absolute;
+  position: fixed;
   top: 10vh;
   right: 0;
   width: 270px;
-  height: auto;
+  height: 100vh;
   background: #0c0c0c;
   transform: translateX(100%);
   transition: transform 0.3s ease-in;
   padding-bottom: 50px;
-  z-index: 1;
+  z-index: -1;
   overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
   max-height: 100vh; /* Define a altura máxima do menu como 100% da altura da viewport */
   overflow-x: none;
@@ -87,6 +87,7 @@ header {
 
 .mobile-menu {
   display: block;
+  z-index: 1;
 }
 
 .nav-list.active {
@@ -105,7 +106,6 @@ header {
 }
 .mobile-menu.active .line1 {
   transform: rotate(-45deg) translate(-8px, 8px);
-  z-index: 999;
 }
 
 .mobile-menu.active .line2 {
