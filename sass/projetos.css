@@ -1,0 +1,520 @@
+#responsive-project {
+  background-position: 100% 0%;
+  transition: 8s;
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+}
+
+#responsive-project:hover {
+  background-position: 100% 100%;
+}
+
+#opacity-project {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.719);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#opacity-project:hover {
+  opacity: 0;
+}
+
+main .section6 .flex-projetos .projetos {
+  width: 350px;
+  margin: 10px 0;
+  border-bottom: 4px solid var(--color-primary);
+  cursor: pointer;
+  transition: 0.2s;
+  background-position: 100% 0%;
+  margin-left: 5px;
+}
+
+main .section6 .flex-projetos .projetos:hover {
+  background-position: 100% 100%;
+}
+
+main .section6 .flex-projetos .projetos .projeto1 {
+  background-image: url(../imagens/projects/clone-Disney+.png);
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+}
+
+main .section6 .flex-projetos .projetos .projeto1 .opacity {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.719);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+main .section6 .flex-projetos .projetos .projeto1 .opacity:hover {
+  opacity: 0;
+}
+
+main .section6 .flex-projetos .projetos .projeto1 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto1 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto1 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto2 {
+  background-image: url(../imagens/projects/Crunchyroll.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto2 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto2 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto2 .opacity i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto3 {
+  background-image: url(../imagens/projects/amazon.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto3 .opacity h6 {
+  color: var(--color-title);
+  font-size: 20px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto3 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto3 .opacity i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto4 {
+  background-image: url(../imagens/projects/WiseUp.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto4 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto4 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto4 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto5 {
+  background-image: url(../imagens/projects/netflix.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto5 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto5 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto5 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto6 {
+  background-image: url(../imagens/projects/Agrodev.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto6 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto6 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto6 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto7 {
+  background-image: url(../imagens/projects/Devcoffe.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto7 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto7 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto7 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto8 {
+  background-image: url(../imagens/projects/dentaldev.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto8 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto8 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto8 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto9 {
+  background-image: url(../imagens/projects/Devshoes.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto9 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto9 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto9 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto10 {
+  background-image: url(../imagens/projects/Devfit.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto10 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto10 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto10 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto11 {
+  background-image: url(../imagens/projects/NewPhase.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto11 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto11 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto11 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto12 {
+  background-image: url(../imagens/projects/food.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto12 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto12 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto12 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto13 {
+  background-image: url(../imagens/projects/Rdr.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto13 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto13 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto13 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto14 {
+  background-image: url(../imagens/projects/relogio.png);
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto14 .opacity {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.719);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+main .section6 .flex-projetos .projetos .projeto14 .opacity:hover {
+  opacity: 0;
+}
+
+main .section6 .flex-projetos .projetos .projeto14 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto14 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto14 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto15 {
+  background-image: url(../imagens/projects/mercadoLivre.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto15 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto15 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto15 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto16 {
+  background-image: url(../imagens/projects/calculadora.png);
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto16 .opacity {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.719);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+main .section6 .flex-projetos .projetos .projeto16 .opacity:hover {
+  opacity: 0;
+}
+
+main .section6 .flex-projetos .projetos .projeto16 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto16 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto16 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto17 {
+  background-image: url(../imagens/projects/EtecUirapuru.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto17 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto17 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto17 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto18 {
+  background-image: url(../imagens/projects/Educar.png);
+}
+
+main .section6 .flex-projetos .projetos .projeto18 .opacity h6 {
+  color: var(--color-title);
+  font-size: 18px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+main .section6 .flex-projetos .projetos .projeto18 .opacity .box-icons {
+  display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto18 .opacity .box-icons i {
+  font-size: 25px;
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .center-button {
+  display: flex;
+  justify-content: center;
+}
+
+main .section6 .center-button #ver-mais {
+  background-color: transparent;
+  border: none;
+  margin: 0 auto;
+  padding: 10px;
+  cursor: pointer;
+  color: #8f8d82;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+main .section6 .center-button #ver-mais:hover {
+  color: #F74B0A;
+}/*# sourceMappingURL=projetos.css.map */
