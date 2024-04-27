@@ -269,30 +269,29 @@ main .section6 .flex-projetos .projetos{
     font-size: 25px;
     color: var(--color-primary);
     display: flex;
-    justify-content: center;
- }
+}
 
- main .section6 .flex-projetos .projetos .projeto10{
-    background-image: url(../imagens/projects/Devfit.png);
- }
 
- main .section6 .flex-projetos .projetos .projeto10 .opacity h6{
-    color: var(--color-title);
-    font-size: 18px;
-    margin-right: -15px;
-    text-align: center;
- }
+main .section6 .flex-projetos .projetos .projeto10{
+   background-image: url(../imagens/projects/Devfit.png);
+}
 
- main .section6 .flex-projetos .projetos .projeto10 .opacity .box-icons{
-    display: flex;
- }
+main .section6 .flex-projetos .projetos .projeto10 .opacity h6{
+   color: var(--color-title);
+   font-size: 18px;
+   margin-right: -15px;
+   text-align: center;
+}
 
- main .section6 .flex-projetos .projetos .projeto10 .opacity .box-icons i{
-    font-size: 25px;
-    color: var(--color-primary);
-    display: flex;
-    justify-content: center;
- }
+main .section6 .flex-projetos .projetos .projeto10 .opacity .box-icons{
+   display: flex;
+}
+
+main .section6 .flex-projetos .projetos .projeto10 .opacity .box-icons i{
+   font-size: 25px;
+   color: var(--color-primary);
+   display: flex;
+}
 
  main .section6 .flex-projetos .projetos .projeto11{
     background-image: url(../imagens/projects/NewPhase.png);
@@ -404,7 +403,7 @@ main .section6 .flex-projetos .projetos .projeto14 .opacity:hover{
 
  
  main .section6 .flex-projetos .projetos .projeto15{
-    background-image: url(../imagens/projects/WiseUp.png);
+    background-image: url(../imagens/projects/teste.png);
  }
 
  main .section6 .flex-projetos .projetos .projeto15 .opacity h6{
