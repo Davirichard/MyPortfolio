@@ -17,7 +17,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.719);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,10 +30,48 @@
   opacity: 0;
 }
 
+#acesso-git {
+  width: 100%;
+  padding: 0 10px;
+  background-color: purple;
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 5px 5px;
+}
+
+#acesso-git a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#acesso-git a span {
+  color: #8f8d82;
+  font-size: 13px;
+  padding: 5px 0;
+  transition: 0.5s;
+}
+
+#acesso-git a span:hover {
+  color: white;
+}
+
+#acesso-git i {
+  font-size: 25px;
+  color: #8f8d82;
+  transition: 0.5s;
+  padding: 5px;
+}
+
+#acesso-git i:hover {
+  color: white;
+}
+
 main .section6 .flex-projetos .projetos {
   width: 350px;
   margin: 10px 0;
-  border-bottom: 4px solid var(--color-primary);
   cursor: pointer;
   transition: 0.2s;
   background-position: 100% 0%;
@@ -54,7 +92,7 @@ main .section6 .flex-projetos .projetos .projeto1 {
 main .section6 .flex-projetos .projetos .projeto1 .opacity {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.719);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,7 +211,7 @@ main .section6 .flex-projetos .projetos .projeto5 .opacity .box-icons i {
 }
 
 main .section6 .flex-projetos .projetos .projeto6 {
-  background-image: url(../imagens/projects/AgroDev.png);
+  background-image: url(../imagens/projects/Agrodev.png);
 }
 
 main .section6 .flex-projetos .projetos .projeto6 .opacity h6 {
@@ -217,7 +255,7 @@ main .section6 .flex-projetos .projetos .projeto7 .opacity .box-icons i {
 }
 
 main .section6 .flex-projetos .projetos .projeto8 {
-  background-image: url(../imagens/projects/DentalDev.png);
+  background-image: url(../imagens/projects/dentaldev.png);
 }
 
 main .section6 .flex-projetos .projetos .projeto8 .opacity h6 {
@@ -303,7 +341,7 @@ main .section6 .flex-projetos .projetos .projeto11 .opacity .box-icons i {
 }
 
 main .section6 .flex-projetos .projetos .projeto12 {
-  background-image: url(../imagens/projects/Food.png);
+  background-image: url(../imagens/projects/food.png);
 }
 
 main .section6 .flex-projetos .projetos .projeto12 .opacity h6 {
@@ -358,7 +396,7 @@ main .section6 .flex-projetos .projetos .projeto14 {
 main .section6 .flex-projetos .projetos .projeto14 .opacity {
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.719);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
