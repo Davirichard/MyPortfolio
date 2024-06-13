@@ -709,7 +709,7 @@ main .section7 .box-flex .depoimentos .flex-persona .box-descri p {
 }
 
 main .section8 {
-  background-color: var(--color-secundary);
+  background-color: var(--color-terciary);
   padding: 100px 40px;
 }
 
@@ -838,7 +838,7 @@ main .section8 .box-form .div-button button {
 
 footer {
   padding: 50px 40px;
-  background-color: var(--color-terciary);
+  background-color: var(--color-secundary);
   text-align: center;
   margin-left: 250px;
 }

@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/projetos.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/depoimentos.css">
     <!--==== Box-icons ====-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
 
 </head>
 <body>
@@ -614,91 +619,84 @@
 
                                         <!--Logo implementarei a sessão depoimentos dos meus clientes ou algo assim-->
 
-        <!--<section class="section7">
+        <section class="section7">
             <div class="title-service">
                 <h2 id="h2">depoimentos</h2>
                 <h3  id="h3">Falas de Clientes</h3>
                 <div id="line"></div>
             </div>
-            <div class="box-flex">
+            <div id="page" class="site">
+                <div class="container">
+                    <div class="teste">
+                        <div class="body swiper">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <div class="wrapper">
+                                        <div class="thumbnail">
+                                            <img src="imagens/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="">
+                                        </div>
+                                        <div class="aside">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem accusamus facilis veritatis necessitatibus odio blanditiis, impedit assumenda aliquam sapiente commodi.</p>
+                                            <div class="name">
+                                                <h4>David Richard</h4>
+                                                <p>Developer front-end</p>
+                                            </div>
+                                        </div>
+                                    </div><!--wrapper-->
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="wrapper">
+                                        <div class="thumbnail">
+                                            <img src="imagens/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="">
+                                        </div>
+                                        <div class="aside">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem accusamus facilis veritatis necessitatibus odio blanditiis, impedit assumenda aliquam sapiente commodi.</p>
+                                            <div class="name">
+                                                <h4>David Richard</h4>
+                                                <p>Developer front-end</p>
+                                            </div>
+                                        </div>
+                                    </div><!--wrapper-->
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="wrapper">
+                                        <div class="thumbnail">
+                                            <img src="imagens/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="">
+                                        </div>
+                                        <div class="aside">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem accusamus facilis veritatis necessitatibus odio blanditiis, impedit assumenda aliquam sapiente commodi.</p>
+                                            <div class="name">
+                                                <h4>David Richard</h4>
+                                                <p>Developer front-end</p>
+                                            </div>
+                                        </div>
+                                    </div><!--wrapper-->
+                                </li>
+                                <li class="swiper-slide">
+                                    <div class="wrapper">
+                                        <div class="thumbnail">
+                                            <img src="imagens/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="">
+                                        </div>
+                                        <div class="aside">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti autem accusamus facilis veritatis necessitatibus odio blanditiis, impedit assumenda aliquam sapiente commodi.</p>
+                                            <div class="name">
+                                                <h4>David Richard</h4>
+                                                <p>Developer front-end</p>
+                                            </div>
+                                        </div>
+                                    </div><!--wrapper-->
+                                </li>
+                            </ul>
+                            <div class="swiper-pagination"></div>
 
-                <div class="depoimentos">
-                    <div class="flex-persona">
-                        <div class="foto-persona">
-                            <img src="imagens/persona/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg" alt="" srcset="">
-                            <h6>Andressa urach</h6>
-                        </div>
-                        <div class="box-descri">
-                            <p>“O David conseguiu me auxiliar com profissionalismo e habilidade técnica, tirou todas as dúvidas, me explicou os itens e corrigiu os bug conforme solicitado”</p>
-                            <div class="flex-stars">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="depoimentos">
-                    <div class="flex-persona">
-                        <div class="foto-persona">
-                            <img src="imagens/persona/allison-griffith-Q76DPRQ3Ix0-unsplash.jpg" alt="" srcset="">
-                            <h6>Andressa urach</h6>
-                        </div>
-                        <div class="box-descri">
-                            <p>“O David conseguiu me auxiliar com profissionalismo e habilidade técnica, tirou todas as dúvidas, me explicou os itens e corrigiu os bug conforme solicitado”</p>
-                            <div class="flex-stars">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="depoimentos">
-                    <div class="flex-persona">
-                        <div class="foto-persona">
-                            <img src="imagens/persona/edward-cisneros-_H6wpor9mjs-unsplash.jpg" alt="" srcset="">
-                            <h6>Andressa urach</h6>
-                        </div>
-                        <div class="box-descri">
-                            <p>“O David conseguiu me auxiliar com profissionalismo e habilidade técnica, tirou todas as dúvidas, me explicou os itens e corrigiu os bug conforme solicitado”</p>
-                            <div class="flex-stars">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="depoimentos">
-                    <div class="flex-persona">
-                        <div class="foto-persona">
-                            <img src="imagens/persona/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="" srcset="">
-                            <h6>Andressa urach</h6>
-                        </div>
-                        <div class="box-descri">
-                            <p>“O David conseguiu me auxiliar com profissionalismo e habilidade técnica, tirou todas as dúvidas, me explicou os itens e corrigiu os bug conforme solicitado”</p>
-                            <div class="flex-stars">
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                                <i class='bx bxs-star'></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div><!--body-->
+                    </div><!--teste-->
+                </div><!--container-->
             </div>
-        </section>-->
+        </section>
 
         <section class="section8">
             <div class="title-service">
@@ -764,8 +762,9 @@
     <script src="js/maqescrever.js"></script>
     <script src="js/experi.js"></script>
     <script src="js/projetos.js"></script>
-    <script src="js/slideDepoimentos.js"></script>
     <script src="js/emailjs.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
 </body>
 </html>
