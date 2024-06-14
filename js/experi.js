@@ -1,13 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
     function animateNumber(elementId, finalNumber, duration, interval) {
         const numeroElement = document.getElementById(elementId);
-        const increment = (finalNumber / (duration / interval));
+        let animationFrameId;
+        
+        const increment = finalNumber / (duration / interval);
 
         function updateNumber(currentNumber) {
             numeroElement.textContent = Math.round(currentNumber) + "+";
 
             if (currentNumber < finalNumber) {
-                requestAnimationFrame(() => updateNumber(currentNumber + increment));
+                animationFrameId = setTimeout(() => updateNumber(currentNumber + increment), interval);
             } else {
                 numeroElement.textContent = finalNumber + "+";
             }
@@ -17,12 +19,13 @@ document.addEventListener("DOMContentLoaded", function() {
             const elementoComClasse = document.querySelector('.box-experiencia');
             if (isElementInViewport(elementoComClasse)) {
                 numeroElement.style.visibility = 'visible';
+                clearTimeout(animationFrameId);
                 updateNumber(0);
-                window.removeEventListener('scroll', handleScroll);
             }
         }
 
         window.addEventListener('scroll', handleScroll);
+        window.addEventListener('resize', handleScroll);  // Para ativar também quando redimensionar a janela
     }
 
     function isElementInViewport(el) {
@@ -35,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
         );
     }
 
-    animateNumber("numero", 3, 1500, 50);
-    animateNumber("numero2", 6, 1500, 50);
-    animateNumber("numero3", 15, 1500, 50);
+    animateNumber("numero", 3, 2500, 25);
+    animateNumber("numero2", 6, 2500, 25);
+    animateNumber("numero3", 18, 2500, 25);
 });

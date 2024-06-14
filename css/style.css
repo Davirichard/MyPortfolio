@@ -520,11 +520,9 @@ main .section4 .box-flex {
   margin: 0 auto;
 }
 
-main .section4 .box-certificados {
+main .section4 .box-certificados{
   width: 45%;
   min-width: 300px;
-  height: auto;
-  padding: 20px;
   margin: 20px;
   background-color: #212529;
   border-radius: 5px;
@@ -532,6 +530,7 @@ main .section4 .box-certificados {
 
 main .section4 .box-certificados img {
   width: 100%;
+  padding: 20px 20px 10px 20px;
 }
 
 /*SECTION 5*/
