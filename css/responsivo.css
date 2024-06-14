@@ -498,6 +498,10 @@ transform: rotate(45deg) translate(-5px, -7px);
   main .section3 {
     padding: 50px 20px;
   }
+
+  main .section3 .box-flex .box-experiencia {
+    margin: 20px 0;
+  }
   main .section4 {
     padding: 50px 20px;
   }
