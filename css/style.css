@@ -522,14 +522,23 @@ main .section4 .box-flex {
 
 main .section4 .box-certificados{
   width: 45%;
+  height: auto;
   min-width: 300px;
   margin: 20px;
+  border-radius: 5px;
+}
+
+main .section4 .box-certificados .certificado{
+  width: 100%;
+  height: auto;
+  min-width: 300px;
   background-color: #212529;
   border-radius: 5px;
 }
 
 main .section4 .box-certificados img {
   width: 100%;
+  height: 350px;
   padding: 20px 20px 10px 20px;
 }
 
