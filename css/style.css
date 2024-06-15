@@ -480,7 +480,7 @@ main .section3 .box-flex .box-experiencia h6 {
 }
 
 main .section3 .box-flex .box-experiencia p {
-  color: var(--color-title);
+  color: var(--color-parag2);
   font-size: 14px;
   line-height: 30px;
   margin-top: 20px;
