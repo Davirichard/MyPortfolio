@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+html{
+  scroll-behavior: smooth;
+}
+
 @media screen and (max-width: 1354px) {
   main .section6 .flex-projetos .projetos {
     min-width: 350px;
@@ -393,6 +398,13 @@ transform: rotate(45deg) translate(-5px, -7px);
   main .section1 .box-flex .right-sobre .box-whats {
     justify-content: left;
   }
+  main .section1 .box-experiencia{
+    justify-content: center;
+  }
+
+  main .section1 .box-experiencia .experi h5 {
+    font-size: 25px;
+  }
   main .section2 .flex-service .box-services i {
     font-size: 36px;
   }
@@ -449,6 +461,7 @@ transform: rotate(45deg) translate(-5px, -7px);
     top: -35px;
     font-size: 15px;
   }
+
   main .section5 {
     background-color: var(--color-secundary);
     padding: 100px 20px;
@@ -495,9 +508,6 @@ transform: rotate(45deg) translate(-5px, -7px);
   }
   #experi-15 {
     margin-right: 0;
-  }
-  main .section1 .box-experiencia .experi h5 {
-    font-size: 28px;
   }
   main .section1 .box-experiencia .experi span {
     font-size: 12px;

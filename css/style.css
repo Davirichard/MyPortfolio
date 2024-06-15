@@ -20,6 +20,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+
 body::-webkit-scrollbar {
   width: 5px;
 }
@@ -52,6 +57,20 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   padding: 10px 20px 20px 20px;
   position: fixed;
+}
+
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: var(--color-terciary);
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 20px;
 }
 
 .sidebar .navbar .foto-perfil {
@@ -822,7 +841,7 @@ main .section8 .box-form form .line {
 main .section8 .box-form form textarea {
   width: 100%;
   margin-top: 10px;
-  background-color: rgba(143, 141, 130, 0.1725490196);
+  background-color: var(--color-terciary);
   border: rgba(116, 114, 107, 0.3843137255);
   color: var(--color-title);
   padding: 20px;
