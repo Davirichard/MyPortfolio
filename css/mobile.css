@@ -10,9 +10,14 @@ header {
   position: fixed;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 .nav-list {
   position: fixed;
-  top: 10vh;
+  top: 5;
   right: 0;
   width: 280px;
   height: 100vh;
@@ -24,10 +29,6 @@ header {
   overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
   max-height: 100vh; /* Define a altura máxima do menu como 100% da altura da viewport */
   overflow-x: none;
-}
-
-html,main{
-  scroll-behavior: smooth;
 }
 
 .nav-list::-webkit-scrollbar {
