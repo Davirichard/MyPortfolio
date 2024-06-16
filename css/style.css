@@ -20,10 +20,10 @@
   font-family: "Poppins", sans-serif;
 }
 
-html{
+/*html{
   scroll-behavior: smooth;
 }
-
+*/
 
 body::-webkit-scrollbar {
   width: 5px;
